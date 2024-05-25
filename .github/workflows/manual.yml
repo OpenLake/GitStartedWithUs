@@ -1,0 +1,16 @@
+name: Update Leaderboard
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-leaderboard:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Run Script to Update Leaderboard
+        run: pyhton update_leaderboard.py
