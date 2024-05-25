@@ -12,5 +12,8 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
+      - name: Install Dependency
+        uses: sudo pip3 install PyGithub
+
       - name: Run Script to Update Leaderboard
-        run: python update_leaderboard.py
+        run: python3 update_leaderboard.py
