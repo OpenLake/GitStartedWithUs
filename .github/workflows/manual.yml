@@ -19,3 +19,7 @@ jobs:
 
       - name: Install Dependency
         run: python -m pip install --upgrade pip PyGithub
+
+      - name: execute py script
+        run: |
+          python update_leaderboard.py
