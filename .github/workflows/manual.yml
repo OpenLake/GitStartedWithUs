@@ -10,10 +10,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
 
       - name: Install Dependency
-        uses: sudo pip3 install PyGithub
+        uses: python -m pip install --upgrade pip PyGithub
 
       - name: Run Script to Update Leaderboard
-        run: python3 update_leaderboard.py
+        run: python update_leaderboard.py
