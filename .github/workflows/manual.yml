@@ -14,12 +14,8 @@ jobs:
 
       - name: Set up Python
         uses: actions/setup-python@v5
-        
-      - name: My first step
-        uses: ./.github/actions/my-action
+        with:
+          python-version: 3.8
 
       - name: Install Dependency
-        uses: python -m pip install --upgrade pip PyGithub
-
-      - name: Run Script to Update Leaderboard
-        run: python update_leaderboard.py
+        run: python -m pip install --upgrade pip PyGithub
