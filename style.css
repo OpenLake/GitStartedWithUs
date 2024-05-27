@@ -97,6 +97,17 @@ a {
 #pixel-art-container .cell:nth-child(19) {
     background-color:DodgerBlue;
 }
+#pixel-art-container .cell:nth-child(8) {
+    background-color:rgba(30, 255, 176, 0.688);
+}
+#pixel-art-container .cell:nth-child(12) {
+    background-color:rgba(255, 30, 143, 0.229);
+}
+#pixel-art-container .cell:nth-child(121) {
+    background-color:rgba(30, 180, 255, 0.826);
+}
+
+
 /* test */
 /* Add more colors for other cells as needed */
 /* add */
