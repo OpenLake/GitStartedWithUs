@@ -91,6 +91,12 @@ a {
 #pixel-art-container .cell:nth-child(191) {
     background-image: radial-gradient(rgb(206, 255, 253), rgb(91, 255, 255));
 }
+#pixel-art-container .cell:nth-child(20) {
+    background-color: Aqua;
+}
+#pixel-art-container .cell:nth-child(19) {
+    background-color:DodgerBlue;
+}
 /* test */
 /* Add more colors for other cells as needed */
 /* add */
