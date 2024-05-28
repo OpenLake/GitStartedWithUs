@@ -157,14 +157,18 @@ a {
   background-color: rgb(53, 243, 23);
 }
 
-#pixel-art-container .cell:nth-child(180) {
-  background-color: rgb(83, 0, 134);
-}
-  
 #pixel-art-container .cell:nth-child(361) {
   background-color: coral;
 }
+  
+#pixel-art-container .cell:nth-child(180) {
+  background-color: rgb(83, 0, 134);
+}
 
+#pixel-art-container .cell:nth-child(200) {
+  background-color: cyan;
+
+}
 /* test */
 /* Add more colors for other cells as needed */
 /* add */
