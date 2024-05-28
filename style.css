@@ -137,6 +137,10 @@ a {
 #pixel-art-container .cell:nth-child(271) {
   background-color: gold;
 }
+
+#pixel-art-container .cell:nth-child(9) {
+  background-color: rgb(17, 255, 0);
+
 #pixel-art-container .cell:nth-child(91) {
     background-color: burlywood;
 }
@@ -152,8 +156,15 @@ a {
 #pixel-art-container .cell:nth-child(389) {
   background-color: rgb(53, 243, 23);
 }
+
 #pixel-art-container .cell:nth-child(180) {
   background-color: rgb(83, 0, 134);
+}
+  
+#pixel-art-container .cell:nth-child(361) {
+  background-color: coral;
+}
+
 /* test */
 /* Add more colors for other cells as needed */
 /* add */
