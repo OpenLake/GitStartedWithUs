@@ -133,9 +133,11 @@ a {
     background-color: orange;
 }
 #pixel-art-container .cell:nth-child(18) {
+}
 
 #pixel-art-container .cell:nth-child(67) {
     background-color: pink;
+}
   
   #pixel-art-container .cell:nth-child(317) {
     background: linear-gradient(to top right, #4568dc, #b06ab3);
@@ -162,6 +164,7 @@ a {
   
   #pixel-art-container .cell:nth-child(9) {
     background-color: rgb(17, 255, 0);
+  }
   
   #pixel-art-container .cell:nth-child(91) {
       background-color: burlywood;
@@ -191,6 +194,11 @@ a {
 }
 #pixel-art-container .cell:nth-child(21) {
   background-color: red;
+}
+
+#pixel-art-container .cell:nth-child(219) {
+
+  background-color: #00f7ff;
 }
 
 /* test */
