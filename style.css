@@ -236,7 +236,9 @@ background-color: red;
 #pixel-art-container .cell:nth-child(220) {
   background-color: pink;
 }
-
+#pixel-art-container .cell:nth-child(250) {
+  background-color: black;
+}
 
 /* test */
 /* Add more colors for other cells as needed */
