@@ -237,6 +237,9 @@ background-color: red;
   background-color: pink;
 }
 
+#pixel-art-container .cell:nth-child(284){
+  background:linear-gradient(to right, rgb(251, 70, 73),rgb(255,195,113));
+}
 
 /* test */
 /* Add more colors for other cells as needed */
