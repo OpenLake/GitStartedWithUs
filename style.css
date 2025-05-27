@@ -211,7 +211,9 @@ a {
 #pixel-art-container .cell:nth-child(223) {
 background-color: red;
 }
-
+#pixel-art-container .cell:nth-child(391) {
+background-color: rgb(15, 02, 05);
+}
 
 #pixel-art-container .cell:nth-child(220) {
   background-color: pink;
