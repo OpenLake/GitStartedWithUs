@@ -91,7 +91,7 @@ a {
   background-color: orange;
 }
 #pixel-art-container .cell:nth-child(5) {
-  background-color: purple;
+  background-color: rgb(218, 67, 218);
 }
 #pixel-art-container .cell:nth-child(10) {
   background-color: black;
@@ -284,3 +284,14 @@ background-color: red;
 #pixel-art-container .cell:nth-child(69) {
   background-color: royalblue;
 }
+
+/* reethika */
+#pixel-art-container .cell:nth-child(327)  {
+  background-color: rgb(238, 188, 130);
+}
+#pixel-art-container .cell:nth-child(137) {
+  background-color: rgb(17, 17, 17);
+}
+
+
+
