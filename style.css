@@ -307,6 +307,9 @@ a {
 #pixel-art-container .cell:nth-child(284) {
   background-color: #4568dc;
 }
+#pixel-art-container .cell:nth-child(224) {
+  background-color: #6ceac2;
+}
 #pixel-art-container .cell:nth-child(317) {
   background: linear-gradient(to top right, #4568dc, #b06ab3);
 }
