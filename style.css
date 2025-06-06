@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=DynaPuff:wght@400..700&display=swap');
 body {
   display: flex;
   flex-direction: column;
@@ -10,12 +11,30 @@ body {
 }
 
 h1 {
-  text-align: left;
-  font-size: 1vhvh;
+  border: double black 2px;
+  border-radius: 10px;
+  background-color: #138808;
+  font-family: Delius,Sans-serif;
+  text-align: center;
+  font-size: 5vh;
+  padding: 6px 30px;
   color: white;
-  padding-left: 3vw;
+}
+.button{
+  border: double black 2px;
+  border-radius: 10px;
+  font-family: Delius,Sans-serif;
+  text-align: center;
+  font-size: 5vh;
+  padding: 7px 30px;
+  color: white;
 }
 
+ .button:hover .button{    /*Add a button hover to make it look good */
+  background-color: lightcoral;
+  color: rgb(1, 13, 1);
+  padding: 9px, 32px;
+}
 header {
   background-color: #474747;
   height: 10vh;
@@ -367,4 +386,7 @@ background: linear-gradient(to top right, #4568dc, #b06ab3);
 
 #pixel-art-container .cell:nth-child(2000) {
   background-color: rgb(255, 0, 0);
+}
+#pixel-art-container .cell:nth-child(50) {
+  background: radial-gradient(red,pink,orange,yellow)
 }
