@@ -10,16 +10,6 @@ body {
   padding: 0 10vw;
 }
 
-h1 {
-  border: double black 2px;
-  border-radius: 10px;
-  background-color: #138808;
-  font-family: Delius,Sans-serif;
-  text-align: center;
-  font-size: 5vh;
-  padding: 6px 30px;
-  color: white;
-}
 .button{
   border: double black 2px;
   border-radius: 10px;
