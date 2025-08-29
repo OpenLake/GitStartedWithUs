@@ -11,7 +11,7 @@ body {
 
 h1 {
   text-align: left;
-  font-size: 1vhvh;
+  font-size: 4vh; /* Fixed invalid value "1vhvh" */
   color: white;
   padding-left: 3vw;
 }
@@ -35,35 +35,26 @@ footer {
 #pixel-art-container {
   background-color: black;
   display: grid;
-  grid-template-columns: repeat(
-    20,
-    1fr
-  ); /* 20 columns, each taking 1 fraction of the available space */
-  grid-template-rows: repeat(
-    20,
-    1fr
-  ); /* 20 rows, each taking 1 fraction of the available space */
+  grid-template-columns: repeat(25, 1fr);
+  grid-template-rows: repeat(25, 1fr);
   gap: 1px;
-  width: 80vmin; /* Use vmin to ensure square grid */
-  height: 80vmin; /* Use vmin to ensure square grid */
-  border: 1px solid black; /* Optional: add border to the grid */
+  width: 80vmin; /* Ensure square grid */
+  height: 80vmin; /* Ensure square grid */
+  border: 1px solid black;
   margin: 2vh;
 }
 
 .cell {
-  width: calc(
-    (80vmin - 19px) / 20
-  ); /* Adjust cell width to fit perfectly, subtracting gap spaces */
-  height: calc(
-    (80vmin - 19px) / 20
-  ); /* Adjust cell height to fit perfectly, subtracting gap spaces */
-  background-color: white; /* Default background color */
+  width: calc((80vmin - 24px) / 25);  /* 25 cells, 24 gaps of 1px each */
+  height: calc((80vmin - 24px) / 25); /* 25 cells, 24 gaps of 1px each */
+  background-color: white;
 }
 
 a {
-  text-decoration: none; /* Remove underline from links */
-  color: inherit; /* Ensure link color matches surrounding text ---- (optional) */
+  text-decoration: none;
+  color: inherit;
 }
+
 
 /* Customize colors for individual cells */
 #pixel-art-container .cell:nth-child(1) {
@@ -372,9 +363,26 @@ background: linear-gradient(to top right, #4568dc, #b06ab3);
 #pixel-art-container .cell:nth-child(400) {
   background-color: orange;
 }
-
 #pixel-art-container .cell:nth-child(428) {
   background-color: #b1ffff;
 }
+#pixel-art-container .cell:nth-child(472) {
+  background-color: rgba(169, 107, 181, 1);
+}
+#pixel-art-container .cell:nth-child(600) {
+  background-color: red;
+}
+
+#pixel-art-container .cell:nth-child(520) {
+  background-color: blue;
+}
+#pixel-art-container .cell:nth-child(447) {
+  background-color: red;
 
 
+#pixel-art-container .cell:nth-child(509) {
+  background-color: rgb(119, 0, 255)
+
+#pixel-art-container .cell:nth-child(599) {
+  background-color: red;
+}
