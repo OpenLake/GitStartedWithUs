@@ -383,6 +383,10 @@ background: linear-gradient(to top right, #4568dc, #b06ab3);
   background-color: red;
 }
 
+#pixel-art-container .cell:nth-child(454) {
+  background-color: rgb(75, 101, 163);
+}
+
 #pixel-art-container .cell:nth-child(601) {
   background-color: red;
 }
