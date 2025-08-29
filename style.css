@@ -367,12 +367,24 @@ background: linear-gradient(to top right, #4568dc, #b06ab3);
 #pixel-art-container .cell:nth-child(106) {
   background-color: rgb(6, 85, 245);
 }
+
+#pixel-art-container .cell:nth-child(450) {
+  background-color: crimson;
+}
+#pixel-art-container .cell:nth-child(456) {
+  background-color: teal;
+}
+
+#pixel-art-container .cell:nth-child(455) {
+  background-color: teal;
+}
+
 #pixel-art-container .cell:nth-child(497) {
   background-color: royalblue;
 }
 
 
-#pixel-art-container .cell.cell:nth-child(473) {
+#pixel-art-container .cell:nth-child(473) {
   background-color:rgb(230, 82, 106);
 }
 
@@ -382,7 +394,31 @@ background: linear-gradient(to top right, #4568dc, #b06ab3);
 #pixel-art-container .cell:nth-child(472) {
   background-color: rgba(169, 107, 181, 1);
 }
+
 #pixel-art-container .cell:nth-child(600) {
+  background-color: red;
+}
+
+#pixel-art-container .cell:nth-child(443) {
+  background-color: rgb(0, 153, 255);
+}
+
+#pixel-art-container .cell:nth-child(483) {
+  background-color: #f78c42;
+}
+#pixel-art-container .cell:nth-child(438) {
+  background-color: green;
+}
+
+#pixel-art-container .cell:nth-child(409) {
+  background-color: rgb(3,177, 252);
+}
+
+#pixel-art-container .cell:nth-child(454) {
+  background-color: rgb(75, 101, 163);
+}
+
+#pixel-art-container .cell:nth-child(601) {
   background-color: red;
 }
 
@@ -411,7 +447,7 @@ background: linear-gradient(to top right, #4568dc, #b06ab3);
   background-color: rgb(170, 0, 255);
 }
 
-#pixel-art-container .cell:nth-child(94) {
+#pixel-art-container .cell:nth-child(494) {
   background-color: maroon;
 }
 
@@ -431,6 +467,14 @@ background: linear-gradient(to top right, #4568dc, #b06ab3);
 }
 #pixel-art-container .cell:nth-child(625) {
   background-color: red;
+}
+
+#pixel-art-container .cell:nth-child(453) {
+  background-color: purple;
+}
+
+#pixel-art-container .cell:nth-child(511) {
+  background-color: rosybrown;
 }
 
 #pixel-art-container .cell:nth-child(620) {
