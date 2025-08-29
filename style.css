@@ -390,6 +390,9 @@ background: linear-gradient(to top right, #4568dc, #b06ab3);
 #pixel-art-container .cell:nth-child(600) {
   background-color: red;
 }
+#pixel-art-container .cell:nth-child(483) {
+  background-color: #f78c42;
+}
 #pixel-art-container .cell:nth-child(438) {
   background-color: green;
 }
@@ -431,7 +434,7 @@ background: linear-gradient(to top right, #4568dc, #b06ab3);
   background-color: rgb(170, 0, 255);
 }
 
-#pixel-art-container .cell:nth-child(94) {
+#pixel-art-container .cell:nth-child(494) {
   background-color: maroon;
 }
 
