@@ -310,6 +310,13 @@ background: linear-gradient(to top right, #4568dc, #b06ab3);
 #pixel-art-container .cell:nth-child(327) {
   background-color: rgb(238, 188, 130); /* reethika */
 }
+#pixel-art-container .cell:nth-child(331) {
+ background-color: hsl(205, 46%, 58%) ;  
+}
+
+#pixel-art-container .cell:nth-child(350) {
+  background-color: #6495ED;
+}
 #pixel-art-container .cell:nth-child(361) {
     background-color: coral;
 }
@@ -552,10 +559,6 @@ background: linear-gradient(to top right, #4568dc, #b06ab3);
 #pixel-art-container .cell:nth-child(2000) {
   background-color: rgb(255, 0, 0);
 }
-#pixel-art-container .cell:nth-child(331) {
- background-color: hsl(205, 46%, 58%) ;  
-}
-
-#pixel-art-container .cell:nth-child(350) {
-  background-color: #6495ED;
+#pixel-art-container .cell:nth-child(3581) {
+  background-color: purple; 
 }
