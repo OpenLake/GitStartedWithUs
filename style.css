@@ -366,6 +366,9 @@ background: linear-gradient(to top right, #4568dc, #b06ab3);
 #pixel-art-container .cell:nth-child(457) {
   background-color: rgba(55, 0, 255, 0.466);
 }
+#pixel-art-container .cell:nth-child(459) {
+  background-color: firebrick;
+}
 
 #pixel-art-container .cell:nth-child(468) {
   background-color: lightskyblue;
@@ -408,6 +411,10 @@ background: linear-gradient(to top right, #4568dc, #b06ab3);
 
 #pixel-art-container .cell:nth-child(600) {
   background-color: red;
+}
+
+#pixel-art-container .cell:nth-child(461) {
+  background-color: rgb(2, 212, 254);
 }
 
 #pixel-art-container .cell:nth-child(507){
