@@ -364,7 +364,11 @@ background: linear-gradient(to top right, #4568dc, #b06ab3);
   background-color: orange;
 }
 
-#pixel-art-container .cell:nth-child(106) {
+#pixel-art-container .cell:nth-child(404) {
+  background-color: blue(0, 140, 255);
+}
+
+#pixel-art-container .cell:nth-child(406) {
   background-color: rgb(6, 85, 245);
 }
 
