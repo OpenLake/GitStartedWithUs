@@ -347,13 +347,13 @@ background: linear-gradient(to top right, #4568dc, #b06ab3);
   background-color: blue;
 }
 #pixel-art-container .cell:nth-child(456) {
-   background-color: rgb(18, 30, 89)
+   background-color: rgb(18, 30, 89);
 }
 #pixel-art-container .cell:nth-child(1225) {
-    background-color: navy
+    background-color: navy;
 }
 #pixel-art-container .cell:nth-child(1667) {
-    background-color: yellow
+    background-color: yellow;
 }
 
 #pixel-art-container .cell:nth-child(2000) {
@@ -413,6 +413,17 @@ background: linear-gradient(to top right, #4568dc, #b06ab3);
   background-color: red;
 }
 
+#pixel-art-container .cell:nth-child(488) {
+  background-color: hsla(281, 59%, 58%, 1.00);
+}
+
+#pixel-art-container .cell:nth-child(447) {
+  background-color: red;
+}
+
+#pixel-art-container .cell:nth-child(509) {
+  background-color: rgb(119, 0, 255);
+}
 #pixel-art-container .cell:nth-child(461) {
   background-color: rgb(2, 212, 254);
 }
